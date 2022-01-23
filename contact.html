@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+  <nav id="start" class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html"><img class= "brand_logo" src="M-coin_logo.png" alt="M-COIN LOGO" ></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="buisness.html">Buisness</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="buy.html">Buy</a>
+			  </li>
+			<li class="nav-item">
+			  <a class="nav-link " href="about.html">About</a>
+			</li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+		  </ul>
+		</div>
+	  </nav>
+      <section class="contact"> 
+          <div class="contact1">
+            <h1 class="text">Contact Us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly. <br>Our team will come back to you within a matter of hours to help you.</p>
+          </div>
+          <div class="name">
+              <form action="contact.php" id="contact-form" name="contact-form" method="post" >
+                
+                  <div class="form1">
+                    
+                    <div class="col-md-12" >
+                        <div class="md-form mb-0">
+                        <div class="row">
+                                <label for="sname">Your name:</label><br>
+                                <input type="text" id="txtName" name="txtName"  ><br>
+                                <label for="email">Email:</label><br>
+                                <input type="text" id="txtEmail" name="txtEmail" ><br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <br>
+                <div class="subject">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="subject" >Subject:</label>
+                                <input type="text" id="txtSubject" name="txtSubject" class="form-control">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <label for="message">Your message: </label>
+                                <textarea type="text" id="txtMessage" name="txtMessage" rows="2" class="form-control md-textarea"></textarea>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <br>
+                    <div class="col-20">
+                        <a class="btn btn-primary" action="" id="submit"  onclick="validateForm();">Submit</a>
+                      </div>
+                      <div class="status"></div>
+                </div>
+              </form>
+              <div class="info">
+                <ul class="list-unstyled mb-0">
+                    <li><img src="location.png" alt="location_icon" class="location">
+                        <p>Mumbai, Maharashtra, 40001, India</p>
+                    </li>
+    
+                    <li><img src="phone.png" alt="phone_icon" class="phone">
+                        <p>+91 9876499221</p>
+                    </li>
+    
+                    <li><img src="mail.png" alt="mail_icon" class="mail">
+                        <p>contact@mcoin.com</p>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="footer">
+          <div class="section full">
+              <h4 class="title">M-coin.com<br><h4>
+              <a class="link" href="index.html">&copy;2021 M-coin.com<br>All Rights Reserved</a>
+          </div>
+          <div class="section">
+              <h4 class="title">Info<br><h4>
+              <a class="link" href="#">Privacy Policy<br>Legal Disclaimer</a>
+          </div>
+          <div class="section">
+              <h4 class="title">Explore<br><h4>
+              <a class="link" href="contact.html">Contact</a><br>
+              <a class="link" href="about.html">Listing Information</a>
+          </div>
+          </section>
+</body>
+</html>

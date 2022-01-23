@@ -1,0 +1,485 @@
+@media only screen and (min-width : 992px) {
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* Nav Bar*/
+.navbar{
+  position: relative;
+}
+.brand_logo{
+    width: 110px;
+    height: auto;
+    
+}
+.navbar-nav{
+    color: #000000 !important;
+}
+.nav-link{
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: rgba(26, 26, 26, 0.575);
+  }
+/* Index Page*/
+.home_image{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.Background_img{
+    background: #d3d3d3;
+    border-radius: 20px;
+    width: 1000px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.buy_M_coin{
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 400px;
+
+}
+.buy_coin{
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.purchase{
+    font-size: 17px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn, .btn-primary, .btn-lg{
+    background-color: #000000 !important;
+    margin-bottom: 50px;
+}
+.invest{
+    margin: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    background-color: #000000;
+}
+h2.Grow{
+    color: aliceblue;
+    line-height: 70px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul.points {
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+li.bullet {
+    color: aliceblue;
+    font-size: 30px;
+    }
+img.trading{
+    width: auto;
+    height: 350px;
+    
+}
+.black{
+    display:flex;
+    justify-content:space-evenly;
+}
+/* Footer */
+.footer{
+    background-color:whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 10000px;
+    padding: 30px;
+    justify-content:space-evenly;
+}
+.section, .title {
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    font-size: 12px;
+    color: #00000079;
+}
+.link:hover{
+    color: #000000;
+}
+/* Contact Page*/
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.contact{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.contact1{
+    margin: 20px;
+    padding: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.name{
+    color: black;
+    font-size: 20px;
+    display:flex;
+    justify-content:stretch;
+}
+.form1{
+    background-color:white;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    display:inline-block;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=message]{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.subject{
+    resize: none;
+    max-width: 690px;
+}
+.location{
+    width: 20px;
+    height: auto;
+}
+.phone{
+    width: 20px;
+    height: auto;
+}
+
+.mail{
+    width: 20px;
+    height: auto;
+}
+.info{
+    margin: 0px;
+    padding: 0px;
+}
+#submit{
+    color: white;
+}
+/* About Page*/
+.about{
+    
+    padding: 40px;
+    
+    
+}
+.mission{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 30px;
+    background-color: #000000;
+    color: white;
+}
+h2.our_mission{
+    color:white;
+    line-height: 70px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about_us{
+    word-wrap: break-word;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri
+}
+/* Buy Page*/
+.buy_M_coin1{
+    margin: 20px;
+    padding: 150px;
+
+}
+.buy{
+    display: flex;
+    
+}
+.content{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow:0 10px 50px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    position: static;
+
+}
+.label{
+    padding-right: 20px;
+    right: 15px;
+    bottom: 20%;
+    font-weight: 700;
+    font-size: 14px;
+    right: 40px!important
+}
+input[class="input1"]{
+    height: 30px;
+    border-radius: 15px;
+    background: #e4e4e4;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+
+    font-size: 14px;
+}
+.button_buy{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 40px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    cursor: pointer; 
+    opacity: 1;
+    background-color: #3826ef;
+    border-radius: 17px;
+    height: 34px;
+    color: var(--light);
+    font-weight: 700;
+    border: none;
+}
+.row{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+/* Buisness Page*/
+.page{
+    width: var(--container-width);
+}
+.buisness{
+    flex-direction: column;
+    overflow: visible;
+}
+.hero{
+    display: flex;
+    align-self: center;
+    margin: 75px 0 0;
+}
+.start{
+    display: flex;
+}
+.primary{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.content1{
+    margin-right: 80px;
+    margin-top: 80px;
+    
+}
+.title1{
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 317px;
+    z-index: 2;
+}
+.body{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.padded{
+    margin-left: 00px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 80px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.row{
+    display:flex;
+    
+
+}
+img.mobile{
+    width: 200px;
+}
+.card-container{
+    
+    padding: 30px;
+}
+.page{
+    margin-left: 150px;
+}
+span.lable{
+    font-size: 16px;
+    font-weight: 700px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px){
+    /* For Mobile phones: */
+    /* Index page */
+    .home_image{
+        padding-left: 5px;
+        position: static;
+        background-image: inherit;
+        background-image: url(Guy_trading1.png);
+        background-size: contain;
+    }
+    
+    .Background_img{
+        width: 20px;
+        height: auto;
+        display: none;
+        
+    }
+    .buy_M_coin{
+        margin: 0px;
+        margin-right: 10px;
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    .invest{
+        margin: 0px;
+        padding: 50px;
+        padding-left: 100px;
+        background-color: #000000;
+    }
+    h2.Grow{
+        color: aliceblue;
+        line-height: 70px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 200;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    ul.points {
+        color: aliceblue;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    .crypto{
+        font-size: 10px;
+    }
+    li.bullet {
+        color: aliceblue;
+        font-size: 15px;
+        }
+    img.trading{
+        display: none;
+        
+    }
+    .black{
+        display:grid;
+        justify-content:space-evenly;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For Tablet phones: */
+    /* Index page */
+    .home_image{
+        padding-left: 10px;
+        position: static;
+    }
+    .Background_img{
+        height: 350px;
+        width: auto;
+    }
+    .buy_M_coin{
+        margin: auto;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .invest{
+        margin: 0px;
+        padding: 50px;
+        padding-left: 100px;
+        background-color: #000000;
+    }
+    h2.Grow{
+        color: aliceblue;
+        line-height: 70px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 200;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    ul.points {
+        color: aliceblue;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    .crypto{
+        font-size: 10px;
+    }
+    li.bullet {
+        color: aliceblue;
+        font-size: 15px;
+        }
+    img.trading{
+        display: none;
+        
+    }
+    .black{
+        display:grid;
+        justify-content:space-evenly;
+    }
+
+
+
+  }

@@ -1,0 +1,41 @@
+<input type="number" placeholder ="MTC to buy" class="input1" value= "0.4973" id="mcinput1">
+
+
+
+<section class="buypage">
+    <div class="buy">
+      <div class="buy_M_coin1">
+		<h1 class="buy_coin">Buy M-Coin</h1>
+		<p class="purchase">Purchase M-Coin (MTC) with your debit/credit card <br>from ₹100-₹20,00,000 .Your future awaits now...</p>
+		</div>
+    
+        <div class="content">
+            <div class="row">
+              
+              <p id="mcinput" class="input1">0.4973</p>
+              
+                <div class="input2" >
+                    
+                  <span id="mc1" class="label1">MC</span>
+                </div>
+                
+                <div >
+                    <input type="number" placeholder ="Price" class="input1" value= "100" id="inrinput">
+                    <span class="label">INR</span>
+                </div>
+            </div>
+            <div class="row bottom" >
+                <input type="text" placeholder ="M-coin address" class="input1" id="adress">
+            </div>
+            <button class="button_buy" >Buy</button>
+
+            
+
+        </div>
+    </div>
+    </section>
+
+#mcinput{
+    padding-right:100px;
+    padding-bottom: 10px;
+}
